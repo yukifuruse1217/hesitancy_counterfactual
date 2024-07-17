@@ -402,14 +402,14 @@ for (sympcoef_index in 1:length(sympcoef_list)) {
   
   # Scenario 034: All conspi no vaccine
   } else if (scenario_index == 11) {
-  temp10 <- 0.084839163
-  temp20 <- 0.159226038
-  temp30 <- 0.146501119
-  temp40 <- 0.091275619
-  temp50 <- 0.087837203
-  temp60 <- 0.080863419
-  temp70 <- 0.052448551
-  temp80 <- 0.059897412
+    temp10 <- 0.159226038
+    temp20 <- 0.146501119
+    temp30 <- 0.091275619
+    temp40 <- 0.087837203
+    temp50 <- 0.080863419
+    temp60 <- 0.052448551
+    temp70 <- 0.059897412
+    temp80 <- 0.059897412
 
   vaccine_data$vaccine_00 <- vaccine_data$vaccine_00_original
   vaccine_data$vaccine_10 <- vaccine_data$vaccine_10_original * (1 - temp10)
